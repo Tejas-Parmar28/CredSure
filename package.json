@@ -1,0 +1,53 @@
+{
+  "name": "cryptocred",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@material-tailwind/react": "^2.1.8",
+    "@radix-ui/react-slot": "^1.0.2",
+    "antd": "^5.13.3",
+    "buffer": "^6.0.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "date-fns": "^3.6.0",
+    "ethers": "^5.4.5",
+    "jotai": "^2.6.4",
+    "jspdf": "^3.0.0",
+    "konva": "^9.3.2",
+    "lucide-react": "^0.319.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-konva": "^18.2.10",
+    "react-loader-spinner": "^6.1.6",
+    "react-router": "^6.21.3",
+    "react-router-dom": "^6.21.3",
+    "react-spinner": "^0.2.7",
+    "react-spinners": "^0.13.8",
+    "react-toastify": "^10.0.4",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-inject": "^5.0.5",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "vite": "^6.2.0"
+  }
+}
